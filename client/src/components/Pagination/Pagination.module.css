@@ -1,0 +1,24 @@
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    list-style: none;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #e9ecef;
+    transition: all 0.5s;
+    margin: 2px;
+    border: solid #e9ecef 1px;
+}
+.button:hover {
+    opacity: 1;
+    animation: line 1s;
+    color: #FFDE00;
+}

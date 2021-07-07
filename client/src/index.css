@@ -1,0 +1,10 @@
+body {
+  background-image: url(background.jpg);
+  background-size: 100%;
+  font-family: monospace;
+  font-size: 20px;
+  margin: 0 auto;
+  padding: 0 auto;
+  padding-top: 60px;
+  padding-right: 160px;
+}

@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tittle {
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+}
+
+.button {
+    margin-top: 50px;
+    color: black !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #FFDE00;
+    padding: 20px;
+    border: 4px solid #FF0000 !important;
+    display: inline-block;
+    transition: all 0.4s ease 0s;
+}
+.button:hover {
+    color: #ffffff !important;
+    background: black;
+    border-color: #FFDE00 !important;
+    transition: all 0.4s ease 0s;
+}
