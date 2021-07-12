@@ -1,89 +1,88 @@
 .formContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 30px;
-    width: 100%;
-    color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  width: 100%;
+  color: white;
+  margin-top: 8%;
 }
-
 
 .stats {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 .statsGroup {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 .firstStats {
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
 }
 .secondStats {
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
 }
-
 
 .typesButton {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    margin-left: 20px;
-    margin-top: 5px;
-    width: 200px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin-left: 20px;
+  margin-top: 5px;
+  width: 200px;
 }
 .select {
-    font-family: monospace;
-    font-size: 16px;
-    padding: 10px 50px 10px 10px;
-    margin-top: 15px;
-    background-color: #3B4CCA;
-    color: white;
-    border-radius: 4px;
-    border: 2px solid white;
-    width: 200px;
-    height: 250px;
+  font-family: monospace;
+  font-size: 16px;
+  padding: 10px 50px 10px 10px;
+  margin-top: 15px;
+  background-color: #3b4cca;
+  color: white;
+  border-radius: 4px;
+  border: 2px solid white;
+  width: 200px;
+  height: 250px;
 }
 
 .button {
-    display: inline-block;
-    font-size: 18px;
-    border-radius: 10px;
-    background-color: #3B4CCA;
-    color: #e9ecef;
-    padding: 5px 15px;
-    transition: all 0.5s;
-    margin: 15px;
-    border: solid #e9ecef 1px;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 10px;
+  background-color: #3b4cca;
+  color: #e9ecef;
+  padding: 5px 15px;
+  transition: all 0.5s;
+  margin: 15px;
+  border: solid #e9ecef 1px;
 }
 .button:hover {
-    padding: 10px;
-    animation: line 1s;
-    color: #FFDE00;
+  padding: 10px;
+  animation: line 1s;
+  color: #ffde00;
 }
 
 .inputText {
-    width: 300px;
-    padding: 5px;
-    margin: 7px;
+  width: 300px;
+  padding: 5px;
+  margin: 7px;
 }
 .inputNum {
-    width: 100px;
-    padding: 5px;
-    margin: 7px;
+  width: 100px;
+  padding: 5px;
+  margin: 7px;
 }
 
 .error {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    font-weight: bold;
-    font-size: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  font-size: 26px;
 }

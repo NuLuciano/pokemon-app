@@ -1,7 +1,9 @@
 .cardContainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    list-style: none;
-    color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  list-style: none;
+  color: white;
+  margin-top: 8%;
+  margin-right: 10%;
 }
